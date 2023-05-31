@@ -5,4 +5,4 @@
 sudo apt-get install arp-scan
 sudo arp-scan -I wlo1 --localnet
 ```
-其中wlo1为用ifconfig查出来的网卡名
+将wlo1替换为用ifconfig查出来的网卡名
