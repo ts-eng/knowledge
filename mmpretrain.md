@@ -6,4 +6,5 @@
 vis_backends = [dict(type='LocalVisBackend'), dict(type='TensorboardVisBackend')]
 visualizer = dict(type='UniversalVisualizer', vis_backends=vis_backends)
 ```
-在vis_backends中添加了tensorboard后端，那么后面的visualizer也得重新设置vis_backends。
+在vis_backends中添加了tensorboard后端，那么后面的visualizer也得重新设置vis_backends。  
+配置文件必须放置在mmpretrain/configs/some_folder目录下。
